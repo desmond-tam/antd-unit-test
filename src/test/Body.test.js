@@ -10,6 +10,7 @@ describe('test',() => {
 
     it('test it',async() => {
         global.fetch = jest.fn((url,options) => {
+            
             return Promise.resolve([
                 "test1",
                 "test2",
