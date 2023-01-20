@@ -18,18 +18,6 @@ export const BodyDiv = () => {
         setVisible(true);
     }
 
-    const Confirmation = () => {
-        return (
-            <Modal
-              title="Basic Modal"
-              onOk={onConfirmed}
-              onCancel={onCancelled}
-              open={true}
-              okText="Save"
-              cancelText="Not Save"
-            />
-        )
-    }
 
     return (
         <div>

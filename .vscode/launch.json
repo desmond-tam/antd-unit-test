@@ -12,14 +12,13 @@
             "webRoot": "${workspaceFolder}"
         },
         {
-            "name": "Debug CRA test",
+            "name": "Debug test",
             "type": "node",
             "request": "launch",
             "env": { "CI": "true" },
             "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
             "args": ["test", "--runInBand", "--no-cache"],
             "cwd": "${workspaceRoot}",
-            "protocol": "inspector",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
 
